@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blink-tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+  <!-- frist-cards -->
+    <header>
+      <h1>Emoji Tic Tac Toe</h1>
+    </header>
+    
+    <div class="category-select">
+      <h2>Select Emoji Categories</h2>
+      <div>
+        <label>Player 1:</label>
+        <select id="player1-category"></select>
+      </div>
+      <div>
+        <label>Player 2:</label>
+        <select id="player2-category"></select>
+      </div>
+      <div id="error" style="color: red;"></div>
+      <button id="startGame">Start Game</button>
+    </div>
+  </div> 
+
+  <!-- scecond-card -->
+
+  <div class="container_tic">
+      <h1>Tic Tac Toe</h1>
+    <div class="container_1">
+        <div class="game_1">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    
+    </div>
+
+    <!-- thrid-card -->
+
+  <div class="container_mes">
+
+    <div class="mes-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-bnt">play Again</button>
+        <button id="reset-btn">Reset Game</button>
+    </div>
+  </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
